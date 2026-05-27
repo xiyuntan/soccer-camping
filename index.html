@@ -2,19 +2,42 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oak Creek 夏日嘉年华</title>
+    <style>
+        body { font-family: sans-serif; background: #fffbeb; padding: 20px; line-height: 1.6; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        h1 { color: #059669; text-align: center; }
+        .section { margin-bottom: 30px; border-bottom: 2px solid #f0f0f0; padding-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #059669; color: white; padding: 10px; }
+        td { padding: 10px; border: 1px solid #ddd; }
+        .price-box { display: flex; justify-content: space-between; margin-top: 20px; }
+        .box { padding: 20px; background: #f0fdf4; border: 2px dashed #059669; border-radius: 10px; width: 45%; text-align: center; }
+    </style>
 </head>
 <body>
-    <h1>Oak Creek 夏日嘉年华活动方案</h1>
-    <h2>日程安排</h2>
-    <ul>
-        <li>09:30-11:00 足球游戏 & 比赛</li>
-        <li>11:00-14:00 艺术手工 (开放式工作台)</li>
-        <li>12:00-13:00 野餐午餐 (Nut-free)</li>
-        <li>12:30-14:00 现场音乐互动</li>
-        <li>14:00-15:30 戏水 & 游泳技能赛</li>
-    </ul>
-    <h2>重要提醒</h2>
-    <p>请各位家长志愿者协助保持场地整洁，并关注游泳安全及食品过敏注意事项。</p>
+    <div class="container">
+        <h1>Oak Creek 夏日嘉年华</h1>
+        <div class="section">
+            <h2>日程安排</h2>
+            <table>
+                <tr><th>时间</th><th>项目</th></tr>
+                <tr><td>09:30-11:00</td><td>足球游戏 & 比赛</td></tr>
+                <tr><td>11:00-14:00</td><td>艺术手工 (开放工作台)</td></tr>
+                <tr><td>12:00-13:00</td><td>野餐午餐</td></tr>
+                <tr><td>12:30-14:00</td><td>现场音乐互动</td></tr>
+                <tr><td>14:00-15:30</td><td>戏水 & 游泳技能赛</td></tr>
+            </table>
+        </div>
+        <div class="section">
+            <h2>费用构成</h2>
+            <div class="price-box">
+                <div class="box"><strong>志愿者家庭</strong><br>$XX</div>
+                <div class="box"><strong>普通参与家庭</strong><br>$XX</div>
+            </div>
+        </div>
+        <p style="text-align:center;"><em>期待您的参与！如有疑问，请联系谭教练。</em></p>
+    </div>
 </body>
 </html>
