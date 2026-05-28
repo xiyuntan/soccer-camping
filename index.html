@@ -18,6 +18,11 @@
         .bio { margin-top: 20px; font-size: 0.9em; background: #f8fafc; padding: 15px; border-left: 4px solid #059669; }
         /* 新增：支付信息样式 */
         .payment-info { background: #fffbeb; padding: 15px; border-radius: 8px; border: 1px solid #fcd34d; margin-top: 20px; }
+        /* 添加这个样式，让表格在小屏幕下可以横向滚动 */
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
     </style>
 </head>
 <body>
@@ -35,7 +40,7 @@
         </div>
 
         <h2>📅 活动流程</h2>
-        <table>
+        <div class="table-container"><table>
             <tr><th>时间</th><th>内容</th><th>重点</th></tr>
             <tr><td>09:30-11:00</td><td>足球游戏与比赛</td><td>草坪热身</td></tr>
             <tr><td>11:00-14:00</td><td>艺术手工(开放式工作台)</td><td>Chuqi指导</td></tr>
@@ -43,6 +48,7 @@
             <tr><td>12:30-14:00</td><td>现场音乐</td><td>欢迎现场点歌与孩子互动。乐手：Dollar&谭教练</td></tr>
             <tr><td>14:00-15:30</td><td>戏水/游泳</td><td>戏水游戏在草坪；游泳竞技包含憋气、漂浮、打腿竞速在泳池。不具备游泳基础的可以穿装备上场</td></tr>
         </table>
+        </div>
 
         <h2>👩‍🏫 特邀导师</h2>
         <div class="bio">
@@ -53,8 +59,8 @@
         <h2>💰 费用与报名</h2>
         <p>本次活动旨在促进 Stanford 华人家庭社区交流及孩子们健康成长。费用仅包含专业指导人工费，乐队演出设备及手工物料采购成本，不含午餐。</p>
         <ul>
-            <li>志愿者家长：$80/ 每个孩子</li>
-            <li>非志愿者家长：$120 / 每个孩子</li>
+            <li>志愿者家长：$80/ 每个孩子（需全程陪同）</li>
+            <li>非志愿者家长：$120 / 每个孩子（仅需接送）</li>
         </ul>
 
         <div class="payment-info">
